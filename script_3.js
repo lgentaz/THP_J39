@@ -15,6 +15,7 @@ for(let count = steps - 1; count >=0; count--){
 }
 
 //alternative rapide
+
 /*var num = Number(prompt("Une pyramide avec combien d'étages?"));
 function pyramid(num){
     brick = "#";
