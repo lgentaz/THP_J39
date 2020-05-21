@@ -5,7 +5,6 @@ var arn_sequence = prompt("Quelle est la séquence à décoder?");
 //CCGUCGUUGCGCUACAGC
 //CCUCGCCGGUACUUCUCG
 
-
 let array_arn = arn_sequence.split("");
 
 function not_arn(array){
@@ -61,4 +60,3 @@ while (nb_of_codons > 0 ) {
 }
 
 console.log(sequencing.join("-"))
-
