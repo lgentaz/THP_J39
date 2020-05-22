@@ -37,7 +37,7 @@ function compare(codon) {
         }    }
     else if (codon[0] == "U") {
         if (codon[1] == "C") {
-            return "Proline";
+            return "Serine";
         } else if (codon[1] == "U") {
             if ((codon[2] == "A") || (codon[2] == "G")) {
                 return "Leucine";
