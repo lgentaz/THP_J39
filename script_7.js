@@ -6,7 +6,7 @@ if (dialog === ""){
     console.log("t'es en PLS ?");
 }
 // Si on lui pose une question (= la phrase finie par "?"), le bot répond  ;
-else if (dialog.indexOf("?") === (dialog.length - 1)){
+else if (dialog.lastIndexOf("?") === (dialog.length - 1)){
     console.log("Ouais Ouais...");
 } 
 // Si on lui hurle trop dessus (= la phrase est 100% en majuscules), le bot répond  ;
